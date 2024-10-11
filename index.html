@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar País</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Procure um país que deseja ver</h1>
+        
+        <input type="text" id="search-input" placeholder="Digite o nome do país">
+        <button id="search-button">Buscar</button>
+        
+        <input type="text" id="currency-input" placeholder="Digite a moeda">
+        <button id="currency-button">Buscar por Moeda</button>
+        
+        <div id="countries-container"></div>
+
+        <button onclick="exibirLogs()">Carregar</button>
+
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>ID Log</th>
+                    <th>Log</th>
+                    <th>API</th>
+                    <th>Método</th>
+                    <th>Resultado</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+
+    </div>
+
+    <div>
+        <p>Favor pesquisar moeda, idioma, sub-região ou região específica em Inglês. :/</p>
+    </div>
+
+    <footer>
+        <p>Anderson Dalton Tortelli Andreis</p>
+        <p>Fundamentos ao desenvolvimento Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+   
+ 
+</body>
+</html>

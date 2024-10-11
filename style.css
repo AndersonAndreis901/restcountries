@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+#tabela {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+#tabela, #tabela th, #tabela td {
+    border: 1px solid #ddd;
+}
+#tabela th, #tabela td {
+    padding: 8px;
+    text-align: left;
+}
+.tr-table:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 60px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+
+
+#search-input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.country {
+    background: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    width: 90%;
+    max-width: 400px; 
+}
+
+
+
+
+.flag {
+    width: 50px; 
+    height: auto;
+    margin-bottom: 5px;
+}
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+footer p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    #search-input, #search-button {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .country {
+        width: 100%; 
+    }
+
+    .flag {
+        width: 40px; 
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #search-input {
+        width: 300px;
+    }
+
+    .flag {
+        width: 60px; 
+    }
+
+    .country {
+        width: 80%; 
+        max-width: 600px; 
+    }
+}
+
